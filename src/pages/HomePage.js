@@ -14,10 +14,10 @@ const HomePage = () => (
       </h3>
 
       <div className="buttons is-justify-content-center are-medium">
-        <Link className="button" to="/create">
+        <Link className="button" to="/create-note">
           Create a Note
         </Link>
-        <Link className="button" to="/view">
+        <Link className="button" to="/view-note">
           Read a Note
         </Link>
       </div>
