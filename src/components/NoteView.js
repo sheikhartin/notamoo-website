@@ -12,7 +12,7 @@ const NoteView = () => {
   const fetchNote = async () => {
     try {
       const response = await axios.get(`${API_BASE_URL}/api/notes/${slug}`, {
-        params: { password },
+        headers: { password: password },
       });
       setNote(response.data);
       setError(null);
