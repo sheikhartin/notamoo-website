@@ -6,7 +6,7 @@ import NoteView from "../components/NoteView";
 const ViewNotePage = () => (
   <>
     <Helmet>
-      <title>View Note - Notamoo</title>
+      <title>Read a Note - Notamoo</title>
     </Helmet>
 
     <section className="section">
